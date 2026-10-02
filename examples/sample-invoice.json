@@ -1,0 +1,25 @@
+{
+  "issuer": {
+    "name": "Example Studio",
+    "address": "1 Sample Lane\nExample City, 100-0000",
+    "email": "billing@example.com",
+    "registrationNumber": "T1234567890123"
+  },
+  "customer": {
+    "name": "Sample Workshop",
+    "address": "2 Demo Street\nSample City, 200-0000",
+    "email": "accounts@example.org"
+  },
+  "invoiceNumber": "INV-2026-001",
+  "issueDate": "2026-10-01",
+  "dueDate": "2026-10-31",
+  "currency": "JPY",
+  "items": [
+    { "description": "Website design", "quantity": 1, "unitPrice": "80000", "taxRate": 10 },
+    { "description": "Development hours", "quantity": "12.5", "unitPrice": "6000", "taxRate": 10 },
+    { "description": "Workshop refreshments", "quantity": 3, "unitPrice": "333", "taxRate": 8 },
+    { "description": "Reference materials", "quantity": 1, "unitPrice": "500", "taxRate": 0 }
+  ],
+  "notes": "Thank you for your business.\nPlease include the invoice number with your payment.",
+  "outputFilename": "sample-invoice.xlsx"
+}
